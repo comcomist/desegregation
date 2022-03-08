@@ -17,6 +17,9 @@ button {  background-color: purple;}
 input[type='text']  { width: 50%;}
 * */
 /*************caleandar.css css/theme2.css **************/
+* { box-sizing: border-box;}
+.row::after {  content: "";  clear: both;  display: table;}/*To prevent:The columns inside a row are all floating to the left, and are therefore taken out of the flow of the page, and other elements will be placed as if the columns do not exist.  https://www.w3schools.com/css/css_rwd_grid.asp*/
+
 .cld-main{  width: 400px;}
 .cld-main a{  color: #4CAF50;}/*#0080FF*/
 .cld-main svg{  fill: #4CAF50;}/*#0080FF*/
